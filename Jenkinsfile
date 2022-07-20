@@ -75,9 +75,10 @@ pipeline {
 
     stage('publish') {
       environment {
-        AWS_ACCESS_KEY_ID = credentials('AWS_ACCESS_KEY_ID')
-        AWS_REGION = credentials('AWS_REGION')
-        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
+        AWS_ACCESS_KEY_ID = credentials('AKIAVGRPL7B6JWRXC2ZE')
+        AWS_REGION = credentials('US East (N. Virginia)
+us-east-1')
+        AWS_SECRET_ACCESS_KEY = credentials('VHlDXwKEz/xPAh6yMfz2QxZR/OQPrergl+yPrfxO')
       }
 
       steps {
